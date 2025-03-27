@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <nav>
+    
+   <h2>🗿PICTURE PERFECT🗿</h2>
+   <h2>🗿PICTURE PERFECT🗿</h2>
+   </nav>
+   <div id="image-gallery">
+
+    </div>
+   <div id="full-image">
+      
+   </div>
+   <div id="sidebar" class="sidebar">
+    <form id="sidebarForm">
+        <h3>Add New Image</h3>
+        <label>Image Name:</label>
+        <input type="text" id="image-name" name="image-name" >
+
+        <label>Image URL:</label>
+        <input type="text" id="image-link" name="image-url">
+
+        <label>Image Description:</label>
+        <input type="text" id="image-description" name="image-description">
+      
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <!-- Button to Toggle Sidebar -->
+  <!-- From Uiverse.io by adamgiebl --> 
+<button class="cssbuttons-io-button" onclick="toggleSidebar()">
+    Get started
+    <div class="icon">
+      <svg
+        height="24"
+        width="24"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M0 0h24v24H0z" fill="none"></path>
+        <path
+          d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+          fill="currentColor"
+        ></path>
+      </svg>
+    </div>
+  </button>
+  
+    <script src="index.js"></script>
+</body>
+</html>
