@@ -1,44 +1,58 @@
 {
-    "images": [
-        {
-            "id": 1,
-            "title": "A photograph", 
-            "url": "images/img1.jpg"
-        },
-        {
-            "id": 2,
-            "title": "A photograph",
-            "url": "images/img2.jpg"
-        },
-        {
-            "id": 3,
-            "title": "",
-            "url": "images/img3.jpg"
-        },
-        {
-            "id": 4,
-            "title": "A photograph",
-            "url": "images/img4.jpg"
-        },
-       {
-            "id": 5,
-            "title": "A photograph",
-            "url": "images/img5.jpg"
-        },
-        {
-            "id": 6,
-            "title": "A photograph",
-            "url": "images/img6.jpg"
-        },
-        {
-            "id": 7,
-            "title": "A photograph",
-            "url": "images/img7.jpg"
-        },
-        {
-            "id": 8,
-            "title": "A photograph",
-            "url": "images/img8.jpg"
-        }
-    ]
+  "images": [
+    {
+      "id": "1",
+      "name": "A web designer",
+      "url": "images/img1.jpg",
+      "description": "A web designer in his office"
+    },
+    {
+      "id": "2",
+      "name": "A vacation",
+      "url": "images/img2.jpg",
+      "description": "A vacation in a Hawaiian island"
+    },
+    {
+      "id": "3",
+     "name": "A beautiful site",
+      "url": "images/img3.jpg",
+      "description": "A beautiful site with a lot of features"
+    },
+    {
+      "id": "4",
+     "name": "Picture of Fiona",
+      "url": "images/img4.jpg",
+       "description": "A picture of Fiona"
+    },
+    {
+      "id": "5",
+      "title": "Cool Pineapple",
+      "url": "images/img5.jpg",
+      "description": "A cool pineapple with shades"
+    },
+    {
+      "id": "6",
+     "name": "Caroline on a car",
+      "url": "images/img6.jpg",
+      "description": "Her modelling on a car"
+    },
+    {
+      "id": "7",
+      "name": "Modelling picture",
+      "url": "images/img7.jpg",
+       "description": "Her modelling in a studio"
+    },
+    {
+      "id": "8",
+      "name": "A web Developer",
+      "url": "images/img8.jpg",
+      "description": "A web developer in his office"
+    },
+    {
+      "id": "9",
+      "name": "Smiling monkey",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRQzlBJZl-G-Za7N67rELie-QQZx64DJYi-w&s",
+      "description": "Him smiling at you"
+    }
+  ]
 }
